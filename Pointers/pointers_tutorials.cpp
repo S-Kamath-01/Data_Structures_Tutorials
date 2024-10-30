@@ -12,7 +12,6 @@ int main(){
     // it is the same as num++
     //* is the dereference operator and *ptr means the value at address pointed by ptr
     cout<<*ptr<<endl;
-    
     return 0;
     
 }

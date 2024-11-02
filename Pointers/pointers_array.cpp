@@ -35,6 +35,15 @@ int main(){
     cout<<*p<<endl;
     cout<<"->"<<&p<<endl;
 
+    int arr1[10];
+    //Error 
+    // arr = arr+1
+
+    int *ptr1 =&arr1[0];
+    cout<<ptr1<<endl;
+    ptr1 = ptr1 + 1;
+    cout<<ptr1<<endl;
+
 
     return 0;
 }

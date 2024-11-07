@@ -10,9 +10,7 @@ private:
         Node(int data):data(data),next(nullptr){}
     }*head; 
 public:
-    LinkedList(){
-        head = nullptr;
-    }
+    LinkedList():head(nullptr){}
 
     void insertAtHead(int data){
         Node *newNode = new Node(data);
